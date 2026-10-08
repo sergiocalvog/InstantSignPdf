@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  * {
+    border-color: var(--color-zinc-200);
+  }
+  .dark * {
+    border-color: var(--color-zinc-800);
+  }
+}
+
+/* Visible responsive scrollbars for PDF navigation when zoomed in */
+.custom-scrollbars {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(59, 130, 246, 0.6) rgba(0, 0, 0, 0.08);
+}
+.custom-scrollbars::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  -webkit-appearance: none;
+}
+.custom-scrollbars::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+.custom-scrollbars::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.7);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}

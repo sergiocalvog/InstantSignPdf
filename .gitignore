@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+bun.lock
+
+# Build & Extension package
+dist/
+build/
+*.zip
+
+# Logs & temp
+*.log
+coverage/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env*
