@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "InstantSign PDF - Private & Offline Signer",
   "short_name": "InstantSign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sign PDF documents, add your signature, name, ID and date 100% locally without uploading files to any server.",
   "action": {
     "default_title": "Open InstantSign PDF",
